@@ -8,6 +8,7 @@ class User():
         self.age = age
         self.profession = profession
         self.location = location
+        self.login_attempts = 0
 
 
     def describe_user(self):
@@ -19,6 +20,14 @@ class User():
         print("Profession: " + self.profession.title())
         print("Location: " + self.location.title())
 
+    def increment_login_attempts(self):
+        """Adds 1 to the amount of times a user tries to login incorrectly"""
+        self.login_attempts += 1
+
+    def reset_login_attempts(self):
+        """Resets the number of login attempts"""
+        self.login_attempts = 0
+
 
     def greet_user(self):
         """method that greets the user"""
@@ -26,7 +35,7 @@ class User():
 
 
 
-john_doe = User('john', 'doe', 30, 'web developer', 'austin')
-john_doe.describe_user()
-john_doe.greet_user()
+
+
+
         
