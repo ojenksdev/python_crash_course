@@ -1,0 +1,5 @@
+I've learned quite a bit about python so far.
+Loop constructs, function definition and more.
+How to build classes and subclasses that inherit from their parents.
+I have a solid understanding of why dictionaries can be more useful than lists.
+It is fun working in python!
